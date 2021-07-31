@@ -125,6 +125,7 @@ CRC = (Размер сектора - Номер блока MFT) / 3
 На рисунке ниже показано состояние памяти в различные моменты времени при использовании динамического распределения.
 
 [![](https://github.com/SemikAlexander/FAT/blob/master/Images/memory.png)](https://github.com/SemikAlexander/FAT/blob/master/Images/memory.png "Состояние памяти в различные моменты времени при использовании динамического распределения")
+>Состояние памяти в различные моменты времени при использовании динамического распределения
 
 Для реализации данного метода управления памятью операционной системе необходимо реализовать функции:
 •	Ведение таблиц свободных и занятых областей, в которых указываются начальные адреса и размеры участков памяти.
@@ -165,11 +166,16 @@ CRC = (Размер сектора - Номер блока MFT) / 3
 ### ЭКРАННЫЕ ФОРМЫ, ОТОБРАЖАЮЩИЕ РЕЗУЛЬТАТЫ РАБОТЫ ПРОГРАММ ЭМУЛЯЦИИ
 
 [![](https://github.com/SemikAlexander/FAT/blob/master/Images/system_formatting.png)](https://github.com/SemikAlexander/FAT/blob/master/Images/system_formatting.png "Форматирование системы")
+> Форматирование системы
 
 [![](https://github.com/SemikAlexander/FAT/blob/master/Images/auth_user.png)](https://github.com/SemikAlexander/FAT/blob/master/Images/auth_user.png "Авторизация пользователя")
+> Авторизация пользователя
 
 [![](https://github.com/SemikAlexander/FAT/blob/master/Images/directory_contents.png)](https://github.com/SemikAlexander/FAT/blob/master/Images/directory_contents.png "Вывод содержимого каталога")
+> Вывод содержимого каталога
 
 [![](https://github.com/SemikAlexander/FAT/blob/master/Images/user_create.png)](https://github.com/SemikAlexander/FAT/blob/master/Images/user_create.png "Создание пользователя")
+> Создание пользователя
 
 [![](https://github.com/SemikAlexander/FAT/blob/master/Images/commands.png)](https://github.com/SemikAlexander/FAT/blob/master/Images/commands.png "Список команд интерпретатора")
+> Список команд интерпретатора
